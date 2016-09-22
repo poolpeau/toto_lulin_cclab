@@ -1,0 +1,83 @@
+*{
+		margin:0;
+	padding: 0;
+}
+
+
+body {
+background-color: pink;
+
+
+}
+
+
+#question {
+
+color:black;
+font-size: 100px;
+font-family: "Metal Gear";
+text-shadow: 9px -10px 10px aqua;
+text-align:center;
+top:40%;
+}
+
+
+#button {
+	position:absolute;
+	top: 500px;
+	left: 440px;
+font-family: 'Magnum';
+font-style: bold;
+font-size:60px
+color: orange;
+	width: 150px;
+	height:100px;
+	text-align:center;
+	background-color: pink;
+	background-image: url("credit.gif");
+
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+
+
+
+#button1 {
+	position:absolute;
+	top: 500px;
+	left: 740px;
+font-family: 'Magnum';
+font-style: bold;
+font-size:60px
+color: orange;
+	width: 150px;
+	height:100px;
+	text-align:center;
+	background-color: pink;
+	background-image: url("credit.gif");
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+}
+
+
+
+.pic {
+	background-image:url("playstation.gif");
+	/*background-size: 450px auto;*/
+    background-position: center; 
+
+}
+
+.picc {
+	background-image:url("nothing.gif");
+	/*background-size: 450px auto;*/
+    background-position: center; 
+
+}
+
+
+.magical {
+	background-image:url("isthisart.gif");
+}

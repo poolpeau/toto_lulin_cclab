@@ -1,0 +1,67 @@
+*{
+		margin:0;
+	padding: 0;
+}
+
+
+body {
+background-color: black;
+
+
+}
+
+
+#question {
+
+color:pink;
+font-size: 350px;
+/*font-family: Arial;*/
+text-shadow: 9px -10px 10px turquoise;
+text-align:center;
+top:10%;
+}
+
+
+#button {
+	position:relative;
+	top: -10px;
+	left: 640px;
+font-family: 'Oswald';
+font-style: bold;
+font-size:60px
+color: orange;
+	width: 120px;
+	height:80px;
+	text-align:center;
+	background-color: orange;
+}
+
+.box {
+display: inline-block;
+position: relative;
+width: 200px;
+	height: 200px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+margin: 5px;
+text-align:center;
+font-size: 30px;
+color: aquamarine;
+text-shadow: 5px -5px 10px  yellow;
+left: 600px;
+padding: 75px 0 0 0; 
+border:solid 3px gold;
+}
+
+
+.pic {
+	background-image:url("fiji.png");
+	background-size: 450px auto;
+    background-position: center; 
+
+}
+
+.magical {
+	background-image:url("isthisart.gif");
+}
