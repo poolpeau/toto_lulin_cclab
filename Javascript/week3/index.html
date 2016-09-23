@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-
-	 <meta name="viewport" content="initial-scale=1.0">
+  <head>
+    <title>Attempt at API</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-</head>
-<body>
- <div id="map">MAP</div>
-</body>
 
+    </head>
+  <body>
 
-<script src="https://maps.googleapis.com/maps/AIzaSyDbYvmhoL5Q3UXyZjoDzom5y-xfpKqVhWU/js?callback=myMap"></script>
+  <h1 id="title">This is an attempt at an API implemented page</h1>
+
+    <div id="map"></div>
+    
+    <div id="background"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbYvmhoL5Q3UXyZjoDzom5y-xfpKqVhWU&callback=initMap"
+    async defer></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
