@@ -32,7 +32,7 @@ void loop() {
     delayMicroseconds(300);
 
   duration = pulseIn(echo,HIGH);
-  distance = duration/58;
+  distance = duration/50;
   Serial.println(distance);
   analogWrite (ledPin,distance);
 
