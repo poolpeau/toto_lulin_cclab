@@ -21,9 +21,7 @@ void loop() {
 buttonValue = digitalRead(button);
 if (buttonValue == HIGH) {
   digitalWrite(buzzer,HIGH);
-    tone(3,100,10);
-
-
+    tone(3,300,10);
   }else {
    
   digitalWrite(buzzer, LOW);
